@@ -26,7 +26,7 @@ ENTRYPOINT ["nginx"]
 CMD ["-g", "daemon off;"]
 
 # To build:
-# docker build -f docker-nginx.dockerfile --tag danwahlin/nginx ../
+# docker build -f nginx.development.dockerfile --tag moizoliya/nginx_development ../
 
 # To run: 
-# docker run -d -p 80:6379 --name nginx danwahlin/nginx
+# docker run -d -p 80:6379 --name nginx moizoliya/nginx_development
